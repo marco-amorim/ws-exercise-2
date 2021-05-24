@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ws-exercise:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ws-exercise</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ws-exercise-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ws-exercise:war exploded" />
+    </root>
+  </artifact>
+</component>
