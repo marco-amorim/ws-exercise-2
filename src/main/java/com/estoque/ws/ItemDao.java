@@ -18,7 +18,7 @@ public class ItemDao {
 
 	//métodos para cadastrar e procurar Item
 
-	public List<Item> todosItens() {
+	public List<Item> todosItens(List<Filtro> lista) {
 		return ITENS;
 	}
 }
