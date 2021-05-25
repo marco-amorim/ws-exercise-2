@@ -3,6 +3,7 @@ package com.estoque.ws;
 import java.util.ArrayList;
 import java.util.List;
 
+// Classe Data Access Object da entidade Item, para realizar operações de pesquisa
 public class ItemDao {
 
 	private static List<Item> ITENS = new ArrayList<>();

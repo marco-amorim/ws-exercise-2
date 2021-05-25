@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement()
 @XmlAccessorType(XmlAccessType.FIELD)
-// Classe que representa o filtro dos itens
+// Classe responsável por fazer a filtragem dos itens
 public class Filtros {
 
 	@XmlElement(name = "filtro") // Annotation que define o nome do elemento como "filtro"

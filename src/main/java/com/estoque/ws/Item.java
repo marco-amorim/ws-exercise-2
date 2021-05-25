@@ -1,5 +1,6 @@
 package com.estoque.ws;
 
+// Classe bean que representa o Item
 public class Item {
 	private String codigo;
 	private String nome;
